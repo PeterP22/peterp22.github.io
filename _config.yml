@@ -1,0 +1,52 @@
+title: Peter Preketes
+tagline: Forward Deployed AI Engineer
+description: Notes and thoughts on shipping AI agents into production. From demo to deployed.
+url: https://peterp22.github.io
+baseurl: ""
+lang: en
+
+author:
+  name: Peter Preketes
+  email: peterpreketes@gmail.com
+
+twitter:
+  username: peterpreketes
+  card: summary
+
+social:
+  name: Peter Preketes
+  links:
+    - https://github.com/PeterP22
+
+# URLs like /notes/why-im-writing-here/
+permalink: /notes/:title/
+markdown: kramdown
+
+plugins:
+  - jekyll-seo-tag
+
+# Evergreen "pillar" pages live in _pillars/ and are served at /<name>/
+collections:
+  pillars:
+    output: true
+    permalink: /:name/
+
+# Posts get the "note" layout; pillars get the "pillar" layout
+defaults:
+  - scope:
+      path: ""
+      type: posts
+    values:
+      layout: note
+  - scope:
+      path: ""
+      type: pillars
+    values:
+      layout: pillar
+
+exclude:
+  - Gemfile
+  - Gemfile.lock
+  - README.md
+  - docs/
+  - vendor/

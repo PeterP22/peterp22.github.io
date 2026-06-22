@@ -1,0 +1,53 @@
+---
+layout: default
+---
+<header class="profile">
+  <div class="avatar" aria-hidden="true">PP</div>
+  <!-- To use a photo: drop it at assets/img/me.jpg and replace the line above with:
+       <img class="avatar" src="{{ '/assets/img/me.jpg' | relative_url }}" alt="Peter Preketes"> -->
+  <div class="profile-text">
+    <h1 class="name">Peter Preketes</h1>
+    <p class="role">Forward Deployed AI Engineer</p>
+  </div>
+</header>
+
+<p class="bio">
+  From demo to deployed. I help teams ship AI agents into production, and I write
+  down what I learn along the way.
+</p>
+
+<nav class="links" aria-label="Social links">
+  <a href="https://x.com/peterpreketes">X</a>
+  <a href="https://github.com/PeterP22">GitHub</a>
+  <a href="https://www.linkedin.com/in/peterpreketes/">LinkedIn</a>
+  <a href="mailto:peterpreketes@gmail.com">Email</a>
+</nav>
+
+<section class="pillars">
+  <h2>Pillars</h2>
+  <div class="pillar-grid">
+    {% assign ordered = site.pillars | sort: "order" %}
+    {% for p in ordered %}
+    <a class="pillar-card" href="{{ p.url | relative_url }}">
+      <span class="pillar-card-title">{{ p.title }}</span>
+      {% if p.summary %}<span class="pillar-card-sum">{{ p.summary }}</span>{% endif %}
+    </a>
+    {% endfor %}
+  </div>
+</section>
+
+<section class="notes">
+  <h2>Notes</h2>
+  {% if site.posts.size > 0 %}
+  <ul class="note-list">
+    {% for post in site.posts %}
+    <li>
+      <time datetime="{{ post.date | date_to_xmlschema }}">{{ post.date | date: "%Y-%m-%d" }}</time>
+      <a href="{{ post.url | relative_url }}">{{ post.title }}</a>
+    </li>
+    {% endfor %}
+  </ul>
+  {% else %}
+  <p class="empty">No notes yet.</p>
+  {% endif %}
+</section>
