@@ -49,11 +49,10 @@ To add a new pillar, drop another file in `_pillars/` with `title`, `order`, and
 Name, role, bio, and links live in `index.html`. For a real photo, drop it at
 `assets/img/me.jpg` and follow the comment near the top of that file.
 
-## Dark mode
+## Look and feel
 
-Toggle is top right. It remembers the visitor's choice and follows their system
-setting on first visit. Colors live in `assets/css/style.css` under
-`:root[data-theme="light"]` and `:root[data-theme="dark"]`.
+Light mode, Nocturne Blurple palette. Colors live in `assets/css/style.css` under
+`:root`; the Bricolage Grotesque fonts are in `assets/fonts/`.
 
 ## Run it locally (optional)
 

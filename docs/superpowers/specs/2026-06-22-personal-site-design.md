@@ -15,8 +15,8 @@ Pages under the PeterP22 account at <https://peterp22.github.io>.
   one-line bio, social links (X, GitHub, LinkedIn, Email), and a
   reverse-chronological Notes list (`date — title`).
 - Note pages: one page per note at `/notes/<slug>/`, rendered from Markdown.
-- Light/dark theme toggle (light = "B" minimal + brand, dark = "C" Nocturne
-  Blurple). Remembers choice in localStorage, respects `prefers-color-scheme`.
+- Light mode only ("B" minimal + brand on a warm off-white). A light/dark toggle
+  was built then removed 2026-06-22 — Peter prefers light only, fits his style.
 
 Out of scope for now (easy to add later): projects/about pages, RSS, comments,
 analytics, custom domain.

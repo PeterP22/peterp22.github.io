@@ -1,6 +1,5 @@
 /* ============================================================
-   peterp22.github.io  —  Nocturne Blurple
-   Light ("B") by default, dark ("C") via [data-theme="dark"].
+   peterp22.github.io  —  Nocturne Blurple (light)
    ============================================================ */
 
 /* ---- fonts (Bricolage Grotesque, bundled) ---- */
@@ -10,8 +9,7 @@
 @font-face { font-family:"Bricolage Grotesque"; font-weight:800; src:url("/assets/fonts/bricolage-grotesque-latin-800-normal.woff2") format("woff2"); font-display:swap; }
 
 /* ---- theme tokens ---- */
-:root,
-:root[data-theme="light"] {
+:root {
   --bg:#f7f6fb;
   --surface:#ffffff;
   --ink:#18161f;
@@ -21,17 +19,6 @@
   --accent2:#9b59ff;
   --line:rgba(91,75,224,0.16);
   --code-bg:#f0eef9;
-}
-:root[data-theme="dark"] {
-  --bg:#0b0a12;
-  --surface:#14121d;
-  --ink:#ece9f5;
-  --muted:#aaa3c4;
-  --dim:#8b84ad;
-  --accent:#8f7dff;
-  --accent2:#b15cff;
-  --line:rgba(160,140,255,0.16);
-  --code-bg:#171526;
 }
 
 /* ---- base ---- */
@@ -46,28 +33,13 @@ body {
   line-height:1.65;
   -webkit-font-smoothing:antialiased;
   text-rendering:optimizeLegibility;
-  transition:background-color .2s ease, color .2s ease;
 }
-.wrap { max-width:640px; margin:0 auto; padding:28px 22px 80px; }
+.wrap { max-width:640px; margin:0 auto; padding:40px 22px 80px; }
 
 h1,h2,h3,.name { font-family:"Bricolage Grotesque",sans-serif; letter-spacing:-0.02em; line-height:1.1; color:var(--ink); }
 
 a { color:var(--accent); text-decoration:none; }
 a:hover { text-decoration:underline; text-underline-offset:3px; text-decoration-thickness:1px; }
-
-/* ---- topbar / theme toggle ---- */
-.topbar { display:flex; justify-content:flex-end; margin-bottom:18px; }
-.theme-toggle {
-  display:inline-flex; align-items:center; justify-content:center;
-  width:38px; height:38px; padding:0;
-  color:var(--muted); background:transparent;
-  border:1px solid var(--line); border-radius:10px;
-  cursor:pointer; transition:color .15s ease, border-color .15s ease;
-}
-.theme-toggle:hover { color:var(--accent); border-color:var(--accent); }
-.theme-toggle .i-sun { display:none; }
-:root[data-theme="dark"] .theme-toggle .i-moon { display:none; }
-:root[data-theme="dark"] .theme-toggle .i-sun { display:inline; }
 
 /* ---- profile ---- */
 .profile { display:flex; align-items:center; gap:18px; margin-bottom:18px; }
