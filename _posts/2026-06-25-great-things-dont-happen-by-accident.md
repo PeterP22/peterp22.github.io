@@ -9,7 +9,7 @@ Take RuneScape. When I was dedicating all my time to Old School RuneScape and be
 
 What really led to the big breakthrough was becoming a content creator and making videos of myself in the game. Playing, showing my kills, putting out content regularly. It let me gauge and track my progress, people were tuning in, and it became a bit of a thing. I became a fairly well-known name in the space under the alias BZR. It led to a lot of opportunities, and in the end I'd say I became the best hybrid PKer in the Oceania region. I could never really gauge myself against everyone because of the ping differences across the world, but yeah, that was a multi-year goal and I got really damn good at the game.
 
-Obviously it fizzled out later when I got into programming and software. I ended up making my own AI bot to beat myself, and then I never really returned. But the moral of the story is you need direction, and having a goal out in front of you is what gives you that. You can apply it to pretty much anything in life.
+Obviously it fizzled out later when I got into programming and software. I ended up making my own [AI bot to beat myself](https://www.youtube.com/watch?v=jIOSCoRjsms), and then I never really returned. This was years ago, when I was first learning to code, way before ChatGPT or any of the AI tools were out. But the moral of the story is you need direction, and having a goal out in front of you is what gives you that. You can apply it to pretty much anything in life.
 
 Say you're into the gym like I am. If you want to lift a certain number, let's say deadlift 300kg, which is one of my current long-term goals and one I'll definitely hit one day. That's the goal. From there you break it down and work out how the hell you're going to get there.
 
