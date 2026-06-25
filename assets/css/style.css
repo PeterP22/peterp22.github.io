@@ -70,7 +70,7 @@ a:hover { text-decoration:underline; text-underline-offset:3px; text-decoration-
 }
 .charsheet dd { margin:0; font-family:"Bricolage Grotesque",sans-serif; font-weight:500; font-size:15.5px; color:var(--ink); }
 
-.inventory { display:flex; flex-wrap:wrap; align-items:baseline; gap:8px 16px; }
+.inventory { display:flex; flex-wrap:wrap; align-items:baseline; gap:8px 16px; margin:0 0 20px; padding-top:2px; }
 .inventory-label { font-family:ui-monospace,"SF Mono",Menlo,monospace; font-size:11px; font-weight:600; text-transform:uppercase; letter-spacing:0.07em; color:var(--dim); }
 .inventory-items { display:inline-flex; flex-wrap:wrap; gap:16px; }
 .inventory a { font-family:"Bricolage Grotesque",sans-serif; font-weight:500; font-size:16px; }
