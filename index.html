@@ -1,42 +1,47 @@
 ---
 layout: default
 ---
-<header class="profile">
-  <div class="avatar" aria-hidden="true">PP</div>
-  <!-- To use a photo: drop it at assets/img/me.jpg and replace the line above with:
-       <img class="avatar" src="{{ '/assets/img/me.jpg' | relative_url }}" alt="Peter Preketes"> -->
-  <div class="profile-text">
+<header class="hero">
+  <div class="hero-top">
+    <div class="avatar" aria-hidden="true">PP</div>
+    <!-- To use a photo: drop it at assets/img/me.jpg and replace the line above with:
+         <img class="avatar" src="{{ '/assets/img/me.jpg' | relative_url }}" alt="Peter Preketes"> -->
     <h1 class="name">Peter Preketes</h1>
-    <p class="role">Forward Deployed AI Engineer</p>
   </div>
+
+  <dl class="charsheet">
+    <div class="stat"><dt>Class</dt><dd>Forward-Deployed AI Engineer</dd></div>
+    <div class="stat"><dt>Build</dt><dd>Agents &middot; Evals &middot; Product &middot; Deployment</dd></div>
+    <div class="stat"><dt>Current quest</dt><dd>From demo to deployed</dd></div>
+    <div class="stat"><dt>Focus</dt><dd>Shipping useful AI systems</dd></div>
+  </dl>
+
+  <nav class="inventory" aria-label="Profile links">
+    <span class="inventory-label">Inventory</span>
+    <span class="inventory-items">
+      <a href="https://x.com/peterpreketes">X</a>
+      <a href="https://github.com/PeterP22">GitHub</a>
+      <a href="https://www.linkedin.com/in/peter-preketes/">LinkedIn</a>
+      <a href="mailto:peterpreketes@gmail.com">Email</a>
+    </span>
+  </nav>
 </header>
 
-<p class="bio">
-  From demo to deployed. I help teams ship AI agents into production, and I write
-  down what I learn along the way.
-</p>
-
-<nav class="links" aria-label="Social links">
-  <a href="https://x.com/peterpreketes">X</a>
-  <a href="https://github.com/PeterP22">GitHub</a>
-  <a href="https://www.linkedin.com/in/peter-preketes/">LinkedIn</a>
-  <a href="mailto:peterpreketes@gmail.com">Email</a>
-</nav>
-
 <section class="pillars">
-  <h2 class="select-chapter">Select Chapter</h2>
+  <h2 class="tree-title">Skill Tree</h2>
   <div class="pillar-grid">
     {% assign ordered = site.pillars | sort: "order" %}
     {% for p in ordered %}
-    <a class="pillar-card" href="{{ p.url | relative_url }}" aria-label="Open the {{ p.title }} chapter">
+    <a class="pillar-card" href="{{ p.url | relative_url }}" aria-label="{{ p.quest | default: p.title }}">
       {% if p.image %}<img class="pillar-card-img" src="{{ p.image | relative_url }}" alt="{{ p.image_alt | default: p.title }}" width="300" height="300" loading="lazy" decoding="async">{% endif %}
+      <span class="quest-name" aria-hidden="true">{{ p.quest | default: p.title }}</span>
     </a>
     {% endfor %}
   </div>
 </section>
 
 <section class="notes">
-  <h2>Notes</h2>
+  <h2>Quest Log</h2>
   {% if site.posts.size > 0 %}
   <ul class="note-list">
     {% for post in site.posts %}
@@ -47,6 +52,6 @@ layout: default
     {% endfor %}
   </ul>
   {% else %}
-  <p class="empty">No notes yet.</p>
+  <p class="empty">No entries yet.</p>
   {% endif %}
 </section>

@@ -3,6 +3,7 @@ layout: default
 ---
 <article class="pillar">
   <a class="back" href="{{ '/' | relative_url }}">&larr; Home</a>
+  {% if page.quest %}<p class="quest-kicker">{{ page.quest }}</p>{% endif %}
   <h1 class="pillar-title">{{ page.title }}</h1>
   {% if page.summary %}<p class="pillar-summary">{{ page.summary }}</p>{% endif %}
   <div class="note-body">
