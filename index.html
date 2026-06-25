@@ -29,6 +29,7 @@ layout: default
     {% assign ordered = site.pillars | sort: "order" %}
     {% for p in ordered %}
     <a class="pillar-card" href="{{ p.url | relative_url }}">
+      {% if p.image %}<img class="pillar-card-img" src="{{ p.image | relative_url }}" alt="{{ p.image_alt | default: p.title }}" width="600" height="600" loading="lazy" decoding="async">{% endif %}
       <span class="pillar-card-title">{{ p.title }}</span>
       {% if p.summary %}<span class="pillar-card-sum">{{ p.summary }}</span>{% endif %}
     </a>

@@ -67,6 +67,17 @@ a:hover { text-decoration:underline; text-underline-offset:3px; text-decoration-
   background:transparent; transition:border-color .15s ease;
 }
 .pillar-card:hover { border-color:var(--accent); text-decoration:none; }
+.pillar-card-img {
+  display:block;
+  width:100%;
+  max-width:280px;
+  margin:0 auto 12px;
+  aspect-ratio:1 / 1;
+  object-fit:cover;
+  border-radius:16px;
+  border:1px solid var(--line);
+  box-shadow:0 6px 16px rgba(91,75,224,0.12);
+}
 .pillar-card-title { font-family:"Bricolage Grotesque",sans-serif; font-weight:700; font-size:18px; letter-spacing:-0.01em; color:var(--ink); }
 .pillar-card-sum { font-size:14px; line-height:1.45; color:var(--muted); }
 
