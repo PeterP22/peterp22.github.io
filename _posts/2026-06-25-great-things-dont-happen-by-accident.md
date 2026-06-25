@@ -1,13 +1,13 @@
 ---
-title: "The one thing behind everything I've gotten good at"
+title: "Great things don't happen by accident"
 date: 2026-06-25
 ---
 
 Over the course of my life, the main thing I've realised is that to achieve great things, it doesn't usually happen on some random occasion. You need something far out ahead of you. A longer-term vision and goal that you're not quite at yet, but you know you'll get there. It's happened in a lot of instances in my life.
 
-Take RuneScape. When I was dedicating all my time to Old School RuneScape and becoming the best PKer on there, I'd basically play every single day, 16+ hours a day, non-stop. At first I was really bad. I was losing all the time, getting destroyed by the other players. So I'd study and watch what they were doing, and I'd adapt and change my play style. I upgraded my peripherals, my keyboard, my mouse. I changed my DPI, learned the tricks from the best players, watched them on YouTube and on Twitch streams. It was a never-ending process.
+Take RuneScape. When I was dedicating all my time to Old School RuneScape and becoming the best PKer (player killer) on there, I'd basically play every single day, 16+ hours a day, non-stop. At first I was really bad. I was losing all the time, getting destroyed by the other players. So I'd study and watch what they were doing, and I'd adapt and change my play style. I upgraded my peripherals, my keyboard, my mouse. I changed my DPI, learned the tricks from the best players, watched them on YouTube and on Twitch streams. It was a never-ending process.
 
-What really led to the big breakthrough was becoming a content creator and making videos of myself in the game. Playing, showing my kills, putting out content regularly. It let me gauge and track my progress, people were tuning in, and it became a bit of a thing. I became a fairly well-known name in the space under the alias Bees That Are. It led to a lot of opportunities, and in the end I'd say I became the best hybrid PKer in the Oceania region. I could never really gauge myself against everyone because of the ping differences across the world, but yeah, that was a multi-year goal and I got really damn good at the game.
+What really led to the big breakthrough was becoming a content creator and making videos of myself in the game. Playing, showing my kills, putting out content regularly. It let me gauge and track my progress, people were tuning in, and it became a bit of a thing. I became a fairly well-known name in the space under the alias BZR. It led to a lot of opportunities, and in the end I'd say I became the best hybrid PKer in the Oceania region. I could never really gauge myself against everyone because of the ping differences across the world, but yeah, that was a multi-year goal and I got really damn good at the game.
 
 Obviously it fizzled out later when I got into programming and software. I ended up making my own AI bot to beat myself, and then I never really returned. But the moral of the story is you need direction, and having a goal out in front of you is what gives you that. You can apply it to pretty much anything in life.
 
