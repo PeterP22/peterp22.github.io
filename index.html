@@ -25,19 +25,6 @@ layout: default
   </nav>
 </header>
 
-<section class="pillars">
-  <h2 class="tree-title">Skill Tree</h2>
-  <div class="pillar-grid">
-    {% assign ordered = site.pillars | sort: "order" %}
-    {% for p in ordered %}
-    <a class="pillar-card" href="{{ p.url | relative_url }}" aria-label="{{ p.quest | default: p.title }}">
-      {% if p.image %}<img class="pillar-card-img" src="{{ p.image | relative_url }}" alt="{{ p.image_alt | default: p.title }}" width="300" height="300" loading="lazy" decoding="async">{% endif %}
-      <span class="quest-name" aria-hidden="true">{{ p.quest | default: p.title }}</span>
-    </a>
-    {% endfor %}
-  </div>
-</section>
-
 <section class="notes">
   <h2>Quest Log</h2>
   {% if site.posts.size > 0 %}
