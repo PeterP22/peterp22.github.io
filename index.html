@@ -24,14 +24,16 @@ layout: default
 </nav>
 
 <section class="pillars">
-  <h2>Pillars</h2>
+  <h2 class="select-chapter">Select Chapter<span class="cursor" aria-hidden="true"></span></h2>
   <div class="pillar-grid">
     {% assign ordered = site.pillars | sort: "order" %}
     {% for p in ordered %}
     <a class="pillar-card" href="{{ p.url | relative_url }}">
-      {% if p.image %}<img class="pillar-card-img" src="{{ p.image | relative_url }}" alt="{{ p.image_alt | default: p.title }}" width="600" height="600" loading="lazy" decoding="async">{% endif %}
-      <span class="pillar-card-title">{{ p.title }}</span>
-      {% if p.summary %}<span class="pillar-card-sum">{{ p.summary }}</span>{% endif %}
+      {% if p.image %}<img class="pillar-card-img" src="{{ p.image | relative_url }}" alt="{{ p.image_alt | default: p.title }}" width="88" height="88" loading="lazy" decoding="async">{% endif %}
+      <span class="pillar-card-text">
+        <span class="pillar-card-title">{{ p.title }}</span>
+        {% if p.summary %}<span class="pillar-card-sum">{{ p.summary }}</span>{% endif %}
+      </span>
     </a>
     {% endfor %}
   </div>
