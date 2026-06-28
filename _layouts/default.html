@@ -18,5 +18,11 @@
       <span>&copy; {{ site.time | date: "%Y" }} {{ site.author.name }}</span>
     </footer>
   </div>
+
+  {%- assign gc = site.analytics.goatcounter -%}
+  {%- if gc and gc != "" -%}
+  <script data-goatcounter="https://{{ gc }}.goatcounter.com/count"
+          async src="//gc.zgo.at/count.js"></script>
+  {%- endif -%}
 </body>
 </html>

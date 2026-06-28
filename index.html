@@ -15,16 +15,16 @@ layout: default
   <nav class="inventory" aria-label="Ways to contact me">
     <span class="inventory-label">Find me</span>
     <span class="inventory-items">
-      <a class="icon-link" href="https://x.com/peterpreketes" target="_blank" rel="me noopener" aria-label="X">
+      <a class="icon-link" href="https://x.com/peterpreketes" target="_blank" rel="me noopener" aria-label="X" data-goatcounter-click="out-x" data-goatcounter-title="X profile">
         <img src="{{ '/assets/img/icons/x.png' | relative_url }}" alt="X" width="48" height="48" loading="lazy">
       </a>
-      <a class="icon-link" href="https://github.com/PeterP22" target="_blank" rel="me noopener" aria-label="GitHub">
+      <a class="icon-link" href="https://github.com/PeterP22" target="_blank" rel="me noopener" aria-label="GitHub" data-goatcounter-click="out-github" data-goatcounter-title="GitHub profile">
         <img src="{{ '/assets/img/icons/github.png' | relative_url }}" alt="GitHub" width="48" height="48" loading="lazy">
       </a>
-      <a class="icon-link" href="https://www.linkedin.com/in/peter-preketes/" target="_blank" rel="me noopener" aria-label="LinkedIn">
+      <a class="icon-link" href="https://www.linkedin.com/in/peter-preketes/" target="_blank" rel="me noopener" aria-label="LinkedIn" data-goatcounter-click="out-linkedin" data-goatcounter-title="LinkedIn profile">
         <img src="{{ '/assets/img/icons/linkedin.png' | relative_url }}" alt="LinkedIn" width="48" height="48" loading="lazy">
       </a>
-      <a class="icon-link" href="mailto:peterpreketes@gmail.com" aria-label="Email">
+      <a class="icon-link" href="mailto:peterpreketes@gmail.com" aria-label="Email" data-goatcounter-click="out-email" data-goatcounter-title="Email">
         <img src="{{ '/assets/img/icons/email.png' | relative_url }}" alt="Email" width="48" height="48" loading="lazy">
       </a>
     </span>
@@ -45,7 +45,7 @@ layout: default
     {% for post in site.posts %}
     <li>
       <time datetime="{{ post.date | date_to_xmlschema }}">{{ post.date | date: "%Y-%m-%d" }}</time>
-      <a href="{{ post.url | relative_url }}">{{ post.title }}</a>
+      <a href="{{ post.url | relative_url }}" data-goatcounter-click="open-{{ post.title | slugify }}" data-goatcounter-title="{{ post.title }}">{{ post.title }}</a>
     </li>
     {% endfor %}
   </ul>

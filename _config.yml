@@ -25,6 +25,12 @@ markdown: kramdown
 plugins:
   - jekyll-seo-tag
 
+# Privacy-friendly analytics. Set this to your GoatCounter code (the bit
+# before .goatcounter.com, e.g. "peterp22" for peterp22.goatcounter.com).
+# Leave empty to disable tracking entirely.
+analytics:
+  goatcounter: ""
+
 # Evergreen "pillar" pages live in _pillars/ and are served at /<name>/
 collections:
   pillars:
