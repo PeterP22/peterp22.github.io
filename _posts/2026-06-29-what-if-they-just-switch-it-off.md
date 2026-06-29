@@ -31,4 +31,10 @@ The catch, and it's a real one, is that hardware goes out of date fast. Nvidia i
 
 So you're caught between two things. Frontier models you might lose access to at any moment, and the hardware to run open ones yourself, which bleeds value the day you buy it. Neither is comfortable. But if I had to bet, I'd rather own the depreciating hardware and the open weights than be locked out entirely.
 
+I'll be honest, I haven't gone and bought a Mac Studio or built a 5090 rig. What I did do, back in November, was buy a little Nvidia Jetson Orin Nano, the 8GB dev kit. It's still in the box. I haven't even opened it yet.
+
+It's worth being clear about what it is, because it's not going to run GLM 5.2. It's a tiny edge AI board, the cheap end of the range, the kind of thing that goes inside a robot or a smart camera rather than sitting on your desk. What it's actually good for is the small stuff: object detection at 30 to 60 frames a second, vision models, small language models up to around 3 billion parameters. People build robotics projects on them, computer vision systems, anything where you want AI running on the device itself with no cloud involved. For me it's the cheapest way to get hands on and actually learn this properly instead of just reading about it.
+
+One thing I found funny: Nvidia shipped a free software update that bumped these boards from about 40 TOPS to 67. So the one sitting unopened in my house got faster while it did nothing. That's the hopeful flip side of the depreciation problem. Sometimes the software catches the old hardware back up.
+
 Owning something that loses value beats renting something that can be taken away.
