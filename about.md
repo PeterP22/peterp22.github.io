@@ -10,7 +10,7 @@ I'm an AI engineer who got here by solving hard problems for the fun of it. Here
 
 Before ChatGPT and all these coding agents, I learned to program purely out of curiosity. I was one of the best PvPers on Old School RuneScape, and I'd mastered hybriding and no-honour tribriding. After a while I got curious about whether I could build a bot that could beat me.
 
-That's where it started. I taught myself Java and reverse engineering and built my Megatron bot, the BZR bot. I put it into a minigame called [Last Man Standing](https://oldschool.runescape.wiki/w/Last_Man_Standing), and it [won 266 games in a row](https://www.youtube.com/watch?v=jIOSCoRjsms) without a single loss. People on Reddit and YouTube ended up documenting its run. Honestly, that's what got me into software and programming for real, and ever since then I've loved solving extremely hard problems.
+That's where it started. I taught myself Java and reverse engineering and built my Megatron bot, the BZR bot. I put it into a minigame called [Last Man Standing](https://oldschool.runescape.wiki/w/Last_Man_Standing), and it [won 266 games in a row](https://www.youtube.com/watch?v=jIOSCoRjsms) without a single loss. People on Reddit and YouTube ended up documenting its run.
 
 ## What I do now
 
@@ -27,4 +27,4 @@ A lot of that focus now is on system design, integration, and actually deploying
 
 ## Outside of code
 
-In my younger years I competed in powerlifting and won both nationals and worlds as a natural athlete. I was also an esports athlete, playing competitive Call of Duty 4 and Modern Warfare 2.
+In my younger years I competed in powerlifting and won both nationals and worlds as a natural. I was also an esports athlete, playing competitive Call of Duty 4 and Modern Warfare 2.
