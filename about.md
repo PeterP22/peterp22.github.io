@@ -30,6 +30,7 @@ A lot of that focus now is on system design, integration, and actually deploying
 - Microsoft Certified: Azure AI Engineer Associate, issued June 2025. It's a closed-book exam that tests your cloud fundamentals.
 - Fourth place globally out of 4,500+ participants in the Gen AI Works hackathon, December 2024.
 - First place at a hackathon in San Francisco, December 2025, built around multi-agent AI systems and RAG.
+- Did a [podcast](https://www.youtube.com/watch?v=RnabVjLNSuk) sharing my journey into the tech world and how I built my career as an AI engineer.
 
 ## Outside of code
 
