@@ -12,6 +12,12 @@ Before ChatGPT and all these coding agents, I learned to program purely out of c
 
 That's where it started. I taught myself Java and reverse engineering and built my Megatron bot, the BZR bot. I put it into a minigame called [Last Man Standing](https://oldschool.runescape.wiki/w/Last_Man_Standing), and it [won 266 games in a row](https://www.youtube.com/watch?v=jIOSCoRjsms) without a single loss. People on Reddit and YouTube ended up documenting its run.
 
+## Experience
+
+The first thing I did was found my own software company in the gaming space. I'd write custom plugins and scripts for people in an underground marketplace, all in Java and Kotlin. It's how I supported myself through university, studying full-time without having to work a regular job, and I still maintain it to this day.
+
+After that I spent half a year at a company focused on military defence and drone warfare. Since then I've been fully focused on AI. I build AI products, do AI consulting, and embed myself into enterprise companies to help them integrate custom AI solutions into their existing infrastructure and workflows, the kind that delivers real, massive ROI.
+
 ## What I do now
 
 I've covered the entire stack, from backend to frontend to DevOps. I stay up to date with the latest AI tooling and use Codex, Claude Code and Cursor day to day. These days I wear a lot of hats and spend much more of my time client and customer facing rather than purely behind the scenes, though I'm still very much technical. That's my bread and butter. Solving extremely hard, complex problems is still my passion and my focus.
