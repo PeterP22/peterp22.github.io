@@ -1,0 +1,78 @@
+<svg viewBox="0 0 900 500" xmlns="http://www.w3.org/2000/svg" font-family="system-ui, -apple-system, sans-serif">
+  <defs>
+    <marker id="arr" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse">
+      <path d="M 0 0 L 10 5 L 0 10 z" fill="#565072"/>
+    </marker>
+    <marker id="arrv" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse">
+      <path d="M 0 0 L 10 5 L 0 10 z" fill="#5b4be0"/>
+    </marker>
+  </defs>
+
+  <rect width="900" height="500" fill="#f7f6fb"/>
+  <text x="450" y="36" text-anchor="middle" font-size="21" font-weight="700" fill="#18161f">The pipeline: one CLI, two ways to understand a video</text>
+
+  <!-- sources -->
+  <rect x="30" y="120" width="160" height="52" rx="10" fill="#ffffff" stroke="#5b4be0" stroke-opacity="0.35"/>
+  <text x="110" y="151" text-anchor="middle" font-size="15" fill="#18161f">YouTube video</text>
+  <rect x="30" y="200" width="160" height="52" rx="10" fill="#ffffff" stroke="#5b4be0" stroke-opacity="0.35"/>
+  <text x="110" y="231" text-anchor="middle" font-size="15" fill="#18161f">Local file or URL</text>
+
+  <line x1="190" y1="146" x2="255" y2="176" stroke="#565072" stroke-width="1.6" marker-end="url(#arr)"/>
+  <text x="212" y="142" font-size="12" fill="#8b86a1">yt-dlp</text>
+  <line x1="190" y1="226" x2="255" y2="200" stroke="#565072" stroke-width="1.6" marker-end="url(#arr)"/>
+
+  <!-- CLI -->
+  <rect x="258" y="158" width="130" height="62" rx="10" fill="#5b4be0"/>
+  <text x="323" y="185" text-anchor="middle" font-size="16" font-weight="700" fill="#ffffff">tl.py CLI</text>
+  <text x="323" y="204" text-anchor="middle" font-size="11.5" fill="#d9d4ff">python, public repo</text>
+
+  <!-- path 1 zone -->
+  <rect x="430" y="70" width="440" height="230" rx="12" fill="#5b4be0" fill-opacity="0.06" stroke="#5b4be0" stroke-opacity="0.25" stroke-dasharray="5 4"/>
+  <text x="450" y="94" font-size="13" font-weight="700" fill="#5b4be0">PATH 1 · INDEXED LIBRARY (COMPOUNDS AS IT GROWS)</text>
+
+  <line x1="388" y1="172" x2="470" y2="140" stroke="#5b4be0" stroke-width="1.8" marker-end="url(#arrv)"/>
+  <text x="400" y="145" font-size="12" fill="#5b4be0">upload</text>
+
+  <rect x="472" y="112" width="120" height="56" rx="10" fill="#ffffff" stroke="#9b59ff" stroke-opacity="0.55"/>
+  <text x="532" y="136" text-anchor="middle" font-size="15" font-weight="700" fill="#18161f">Index</text>
+  <text x="532" y="154" text-anchor="middle" font-size="11.5" fill="#565072">video memory</text>
+
+  <rect x="452" y="196" width="160" height="40" rx="10" fill="#ffffff" stroke="#9b59ff" stroke-opacity="0.55"/>
+  <text x="532" y="221" text-anchor="middle" font-size="13.5" fill="#18161f">Marengo 3.0 · search</text>
+  <rect x="452" y="246" width="160" height="40" rx="10" fill="#ffffff" stroke="#9b59ff" stroke-opacity="0.55"/>
+  <text x="532" y="271" text-anchor="middle" font-size="13.5" fill="#18161f">Pegasus 1.2 · analysis</text>
+  <line x1="532" y1="196" x2="532" y2="172" stroke="#565072" stroke-width="1.4" marker-end="url(#arr)"/>
+
+  <line x1="592" y1="128" x2="688" y2="112" stroke="#565072" stroke-width="1.6" marker-end="url(#arr)"/>
+  <line x1="592" y1="148" x2="688" y2="180" stroke="#565072" stroke-width="1.6" marker-end="url(#arr)"/>
+  <line x1="612" y1="266" x2="688" y2="248" stroke="#565072" stroke-width="1.6" marker-end="url(#arr)"/>
+
+  <rect x="690" y="90" width="160" height="46" rx="10" fill="#ffffff" stroke="#5b4be0" stroke-opacity="0.35"/>
+  <text x="770" y="110" text-anchor="middle" font-size="13.5" fill="#18161f">search in English</text>
+  <text x="770" y="127" text-anchor="middle" font-size="11.5" fill="#8b86a1">exact timestamps back</text>
+  <rect x="690" y="160" width="160" height="46" rx="10" fill="#ffffff" stroke="#5b4be0" stroke-opacity="0.35"/>
+  <text x="770" y="180" text-anchor="middle" font-size="13.5" fill="#18161f">chapters + summaries</text>
+  <text x="770" y="197" text-anchor="middle" font-size="11.5" fill="#8b86a1">auto-generated</text>
+  <rect x="690" y="228" width="160" height="46" rx="10" fill="#ffffff" stroke="#5b4be0" stroke-opacity="0.35"/>
+  <text x="770" y="248" text-anchor="middle" font-size="13.5" fill="#18161f">open-ended Q&amp;A</text>
+  <text x="770" y="265" text-anchor="middle" font-size="11.5" fill="#8b86a1">ask it anything</text>
+
+  <!-- path 2 zone -->
+  <rect x="430" y="330" width="440" height="130" rx="12" fill="#9b59ff" fill-opacity="0.06" stroke="#9b59ff" stroke-opacity="0.3" stroke-dasharray="5 4"/>
+  <text x="450" y="354" font-size="13" font-weight="700" fill="#8b45e6">PATH 2 · DIRECT, NO INDEXING</text>
+
+  <path d="M 323 220 L 323 400 L 468 400" fill="none" stroke="#8b45e6" stroke-width="1.8" marker-end="url(#arrv)"/>
+  <text x="335" y="330" font-size="12" fill="#8b45e6">quick</text>
+
+  <rect x="472" y="374" width="150" height="52" rx="10" fill="#ffffff" stroke="#9b59ff" stroke-opacity="0.55"/>
+  <text x="547" y="396" text-anchor="middle" font-size="14.5" font-weight="700" fill="#18161f">Pegasus 1.5</text>
+  <text x="547" y="414" text-anchor="middle" font-size="11.5" fill="#565072">newest model</text>
+
+  <line x1="622" y1="400" x2="688" y2="400" stroke="#565072" stroke-width="1.6" marker-end="url(#arr)"/>
+
+  <rect x="690" y="374" width="160" height="52" rx="10" fill="#ffffff" stroke="#5b4be0" stroke-opacity="0.35"/>
+  <text x="770" y="396" text-anchor="middle" font-size="13.5" fill="#18161f">one-shot analysis</text>
+  <text x="770" y="413" text-anchor="middle" font-size="11.5" fill="#8b86a1">up to 2h, straight from a URL</text>
+
+  <text x="450" y="480" font-size="12" fill="#8b86a1">Video comes in on the left, gets indexed once, then behaves like a database you can query.</text>
+</svg>
